@@ -1,0 +1,49 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+  font-family: 'comic sans ms', sans-serif;
+  font-size: 20px;
+  /* animation: thing 5s ease-in-out infinite alternate; */
+  background-color: rebeccapurple;
+  color: white;
+}
+
+input {
+  padding: 1rem;
+  width: 100%;
+  border: 3px orange solid;
+  color: tomato;
+  font-size: larger;
+  font-weight: bolder;
+  margin-bottom: 3rem;
+}
+
+.card {
+  padding: 2em;
+  color: springgreen;
+  background: slateblue;
+  border: 5px solid tomato;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: all 1s ease-in-out;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.card:hover {
+  transform: scale(115%) translateX(10%);
+  /* border-radius: 20%; */
+}
+
+@keyframes thing {
+  from {
+    transform: scaleX(95%);
+  }
+  to {
+    transform: scaleX(100%);
+  }
+}

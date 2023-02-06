@@ -1,0 +1,3693 @@
+{
+    "$schema": "https://raw.githubusercontent.com/wp-hooks/generator/0.9.0/schema.json",
+    "hooks": [
+        {
+            "name": "'woocommerce_translations_updates_for_' . basename(__FILE__, '.php')",
+            "file": "woocommerce-product-bundles.php",
+            "type": "filter",
+            "doc": {
+                "description": "'WC_PB_DEBUG_STOCK_PARENT_SYNC' constant.",
+                "long_description": "Used to disable stock status and visibility syncing for bundles. Requires the 'WC_Background_Process' class introduced in WC 3.3.",
+                "tags": [],
+                "long_description_html": "<p>Used to disable stock status and visibility syncing for bundles. Requires the 'WC_Background_Process' class introduced in WC 3.3.</p>"
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "admin_body_class",
+            "file": "includes/admin/class-wc-pb-admin.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "gettext",
+            "file": "includes/class-wc-pb-stock-notifications.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "gettext",
+            "file": "includes/class-wc-pb-stock-notifications.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "nyp_field_prefix",
+            "file": "includes/compatibility/modules/class-wc-pb-nyp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "option_wc_points_rewards_single_product_message",
+            "file": "includes/compatibility/modules/class-wc-pb-pnr-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "option_woocommerce_notify_low_stock_amount",
+            "file": "includes/class-wc-bundled-item.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "option_woocommerce_stock_format",
+            "file": "includes/class-wc-bundled-item.php",
+            "type": "filter",
+            "doc": {
+                "description": "'woocommerce_get_bundled_item_stock_html' filter.",
+                "long_description": "Bundled items availability html that takes min_quantity into account.",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$availability_html"
+                    },
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$availability"
+                    },
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "\\WC_Bundled_Item"
+                        ],
+                        "variable": "$this"
+                    }
+                ],
+                "long_description_html": "<p>Bundled items availability html that takes min_quantity into account.</p>"
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "plugin_row_meta",
+            "file": "includes/class-wc-pb-install.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "postbox_classes_shop_order_woocommerce-order-label",
+            "file": "includes/compatibility/modules/class-wc-pb-wc-services-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2,
+            "priority": "10"
+        },
+        {
+            "name": "postbox_classes_shop_order_woocommerce-order-shipment-tracking",
+            "file": "includes/compatibility/modules/class-wc-pb-wc-services-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2,
+            "priority": "10"
+        },
+        {
+            "name": "pre_option_woocommerce_stock_format",
+            "file": "includes/class-wc-product-bundle.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2,
+            "priority": "1000"
+        },
+        {
+            "name": "product_addons_field_prefix",
+            "file": "includes/compatibility/modules/class-wc-pb-addons-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "product_type_options",
+            "file": "includes/admin/meta-boxes/class-wc-pb-meta-box-product-data.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "product_type_selector",
+            "file": "includes/class-wc-pb-install.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "quick_view_selector",
+            "file": "includes/compatibility/modules/class-wc-pb-qv-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "rest_dispatch_request",
+            "file": "includes/compatibility/modules/class-wc-pb-wc-services-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "rest_pre_dispatch",
+            "file": "includes/compatibility/core/class-wc-pb-core-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "rest_request_after_callbacks",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "20"
+        },
+        {
+            "name": "rest_request_after_callbacks",
+            "file": "includes/api/class-wc-pb-store-api.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "storefront_sticky_add_to_cart_params",
+            "file": "includes/compatibility/modules/class-wc-pb-sf-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "wc_add_to_cart_message_html",
+            "file": "includes/class-wc-pb-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "wc_add_to_cart_message_html",
+            "file": "includes/modules/bundle-sells/includes/class-wc-pb-bs-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_connect_meta_box_payload",
+            "file": "includes/compatibility/modules/class-wc-pb-wc-services-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2,
+            "priority": "10"
+        },
+        {
+            "name": "wc_cost_of_goods_set_order_item_cost_meta_item_cost",
+            "file": "includes/compatibility/modules/class-wc-pb-cog-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_e2e_provision_importer_params",
+            "file": "tests/_support/docker/mu-plugins/pb-acceptance-test-helper.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "wc_get_price_decimals",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "'woocommerce_bundled_cart_item_discount_method' filter.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "6.0.0"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Method to use for calculating cart item discounts. Values: 'filters' | 'props'.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$method"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "wc_get_template",
+            "file": "includes/modules/bundle-sells/includes/class-wc-pb-bs-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_memberships_exclude_product_from_member_discounts",
+            "file": "includes/compatibility/modules/class-wc-pb-members-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_min_max_quantity_maximum_allowed_quantity",
+            "file": "includes/compatibility/modules/class-wc-pb-min-max-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_min_max_quantity_minimum_allowed_quantity",
+            "file": "includes/compatibility/modules/class-wc-pb-min-max-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_nyp_data_attributes",
+            "file": "includes/compatibility/modules/class-wc-pb-nyp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "wc_nyp_data_attributes",
+            "file": "includes/compatibility/modules/class-wc-pb-nyp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "wc_nyp_field_suffix",
+            "file": "includes/compatibility/modules/class-wc-pb-nyp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_nyp_force_display_price_input",
+            "file": "includes/compatibility/modules/class-wc-pb-nyp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "wc_pip_document_table_product_class",
+            "file": "includes/compatibility/modules/class-wc-pb-pip-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_pip_document_table_row_item_data",
+            "file": "includes/compatibility/modules/class-wc-pb-pip-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_pip_document_table_rows",
+            "file": "includes/compatibility/modules/class-wc-pb-pip-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "52"
+        },
+        {
+            "name": "wc_pip_order_item_name",
+            "file": "includes/compatibility/modules/class-wc-pb-pip-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "9"
+        },
+        {
+            "name": "wc_pip_order_item_name",
+            "file": "includes/compatibility/modules/class-wc-pb-pip-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_pip_order_items_count",
+            "file": "includes/compatibility/modules/class-wc-pb-pip-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2,
+            "priority": "1000"
+        },
+        {
+            "name": "wc_pip_packing-list_hide_virtual_item",
+            "file": "includes/compatibility/modules/class-wc-pb-pip-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_pip_packing-list_list_group_item_as_uncategorized",
+            "file": "includes/compatibility/modules/class-wc-pb-pip-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_points_rewards_single_product_message",
+            "file": "includes/compatibility/modules/class-wc-pb-pnr-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_pre_orders_cart_item_meta",
+            "file": "includes/compatibility/modules/class-wc-pb-po-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_pre_orders_order_item_meta",
+            "file": "includes/compatibility/modules/class-wc-pb-po-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wc_stripe_hide_payment_request_on_product_page",
+            "file": "includes/compatibility/modules/class-wc-pb-stripe-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wcopc_allow_cart_item_modification",
+            "file": "includes/compatibility/modules/class-wc-pb-opc-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wcpay_payment_request_is_product_supported",
+            "file": "includes/compatibility/modules/class-wc-pb-wc-payments-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_add_bundled_product_item_data",
+            "file": "includes/compatibility/modules/class-wc-pb-min-max-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_add_cart_item",
+            "file": "includes/class-wc-pb-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_add_cart_item_data",
+            "file": "includes/compatibility/modules/class-wc-pb-nyp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "5"
+        },
+        {
+            "name": "woocommerce_add_cart_item_data",
+            "file": "includes/compatibility/modules/class-wc-pb-addons-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_add_cart_item_data",
+            "file": "includes/class-wc-pb-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_add_component_to_order_callback",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_add_error",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_add_to_cart_product_id",
+            "file": "tests/_support/docker/mu-plugins/provision.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_add_to_cart_redirect",
+            "file": "includes/class-wc-pb-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "'woocommerce_bundle_before_validation' filter.",
+                "long_description": "Early chance to stop/bypass any further validation.",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "boolean"
+                        ],
+                        "variable": "$true"
+                    },
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "\\WC_Product_Bundle"
+                        ],
+                        "variable": "$bundle"
+                    }
+                ],
+                "long_description_html": "<p>Early chance to stop/bypass any further validation.</p>"
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_add_to_cart_sold_individually_found_in_cart",
+            "file": "includes/class-wc-pb-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_add_to_cart_validation",
+            "file": "includes/modules/bundle-sells/includes/class-wc-pb-bs-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "100"
+        },
+        {
+            "name": "woocommerce_add_to_cart_validation",
+            "file": "includes/class-wc-pb-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_admin_get_user_data_fields",
+            "file": "includes/admin/analytics/class-wc-pb-admin-analytics.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_admin_html_order_item_class",
+            "file": "includes/class-wc-pb-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_admin_html_order_preview_item_class",
+            "file": "includes/class-wc-pb-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_admin_reports",
+            "file": "includes/admin/class-wc-pb-admin.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_admin_rest_controllers",
+            "file": "includes/admin/analytics/class-wc-pb-admin-analytics.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_admin_stock_html",
+            "file": "includes/admin/class-wc-pb-admin-post-types.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_analytics_clauses_from_composites_stats_interval",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_analytics_clauses_from_composites_stats_total",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_analytics_clauses_from_composites_subquery",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_analytics_report_menu_items",
+            "file": "includes/admin/analytics/class-wc-pb-admin-analytics.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_api_order_response",
+            "file": "includes/api/class-wc-pb-rest-api.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_available_variation",
+            "file": "includes/compatibility/modules/class-wc-pb-min-max-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "15"
+        },
+        {
+            "name": "woocommerce_available_variation",
+            "file": "includes/class-wc-bundled-item.php",
+            "type": "filter",
+            "doc": {
+                "description": "'woocommerce_force_show_bundled_variation_attribute_option_dropdown' filter.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "boolean"
+                        ],
+                        "variable": "$force_show"
+                    },
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_available_variation",
+            "file": "includes/class-wc-pb-ajax.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bulk_edit_save_price_product_types",
+            "file": "includes/admin/class-wc-pb-admin-post-types.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundle_add_to_cart_form_location_options",
+            "file": "includes/compatibility/modules/class-wc-pb-et-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundle_added_to_order",
+            "file": "includes/compatibility/modules/class-wc-pb-cog-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundle_before_validation",
+            "file": "includes/compatibility/modules/class-wc-pb-subscriptions-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundle_container_cart_item",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "0"
+        },
+        {
+            "name": "woocommerce_bundle_container_cart_item",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundle_container_cart_item",
+            "file": "includes/class-wc-pb-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundle_contains_shipped_items",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundle_form_classes",
+            "file": "includes/compatibility/modules/class-wc-pb-elementor-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundle_front_end_params",
+            "file": "includes/compatibility/modules/class-wc-pb-fs-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundle_front_end_params",
+            "file": "tests/_support/docker/mu-plugins/pb-acceptance-test-helper.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_bundle_is_editable_in_cart",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundle_price_data",
+            "file": "includes/modules/min-max-items/includes/class-wc-pb-mmi-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundle_requires_input",
+            "file": "includes/modules/min-max-items/includes/class-wc-pb-mmi-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_cart_item",
+            "file": "includes/class-wc-pb-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_cart_item",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_bundled_cart_item",
+            "file": "includes/compatibility/modules/class-wc-pb-addons-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "0"
+        },
+        {
+            "name": "woocommerce_bundled_item_add_to_cart_validation",
+            "file": "includes/compatibility/modules/class-wc-pb-addons-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_add_to_cart_validation",
+            "file": "includes/compatibility/modules/class-wc-pb-nyp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_cart_data",
+            "file": "includes/compatibility/modules/class-wc-pb-nyp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_cart_data",
+            "file": "includes/compatibility/modules/class-wc-pb-addons-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_cart_item_identifier",
+            "file": "includes/compatibility/modules/class-wc-pb-addons-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_cart_item_identifier",
+            "file": "includes/compatibility/modules/class-wc-pb-nyp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_classes",
+            "file": "tests/_support/docker/mu-plugins/pb-acceptance-test-helper.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_description",
+            "file": "includes/admin/class-wc-pb-admin-ajax.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_bundled_item_discount",
+            "file": "includes/compatibility/modules/class-wc-pb-members-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_discount",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_has_bundled_weight",
+            "file": "tests/unit/test-wc-pb-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_bundled_item_has_bundled_weight",
+            "file": "tests/unit/test-wc-pb-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_bundled_item_has_bundled_weight",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_has_bundled_weight",
+            "file": "tests/unit/test-wc-pb-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_bundled_item_is_priced_individually",
+            "file": "includes/admin/class-wc-pb-admin-ajax.php",
+            "type": "filter",
+            "doc": {
+                "description": "'woocommerce_add_bundled_product_item_data' filter.",
+                "long_description": "Use this filter to modify the bundled item data when the product is first added.",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "array",
+                        "types": [],
+                        "variable": "$item_data"
+                    },
+                    {
+                        "name": "param",
+                        "content": "string",
+                        "types": [],
+                        "variable": "$context"
+                    },
+                    {
+                        "name": "param",
+                        "content": "int",
+                        "types": [],
+                        "variable": "$product_id"
+                    }
+                ],
+                "long_description_html": "<p>Use this filter to modify the bundled item data when the product is first added.</p>"
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_bundled_item_is_priced_individually",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_is_shipped_individually",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_quantity",
+            "file": "includes/compatibility/modules/class-wc-pb-min-max-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_quantity",
+            "file": "includes/modules/min-max-items/includes/class-wc-pb-mmi-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_quantity_default",
+            "file": "includes/compatibility/modules/class-wc-pb-min-max-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_quantity_max",
+            "file": "includes/modules/min-max-items/includes/class-wc-pb-mmi-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_item_quantity_max",
+            "file": "includes/compatibility/modules/class-wc-pb-min-max-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundled_product_gallery_classes",
+            "file": "includes/compatibility/modules/class-wc-pb-fs-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_bundles_bundled_item_visibility",
+            "file": "includes/admin/meta-boxes/views/html-bundle-edit-form.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_bundles_group_mode_options_data",
+            "file": "includes/compatibility/modules/class-wc-pb-sf-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2,
+            "priority": "11"
+        },
+        {
+            "name": "woocommerce_bundles_group_mode_options_data",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_bundles_optional_bundled_item_add_suffix",
+            "file": "tests/_support/docker/mu-plugins/pb-acceptance-test-helper.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_bundles_process_bundled_item_admin_data",
+            "file": "includes/compatibility/modules/class-wc-pb-addons-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundles_process_bundled_item_admin_data",
+            "file": "includes/compatibility/modules/class-wc-pb-min-max-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundles_synced_contents_data",
+            "file": "includes/modules/min-max-items/includes/class-wc-pb-mmi-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_bundles_update_price_meta",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_cart_contents_count",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_cart_item_class",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_cart_item_class",
+            "file": "tests/_support/docker/mu-plugins/pb-acceptance-test-helper.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "15"
+        },
+        {
+            "name": "woocommerce_cart_item_data_to_validate",
+            "file": "includes/class-wc-pb-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_cart_item_is_child_of_composite",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_cart_item_name",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "9"
+        },
+        {
+            "name": "woocommerce_cart_item_name",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_cart_item_name",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_cart_item_price",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_cart_item_product",
+            "file": "includes/compatibility/modules/class-wc-pb-min-max-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_cart_item_quantity",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "11"
+        },
+        {
+            "name": "woocommerce_cart_item_quantity",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_cart_item_remove_link",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_cart_item_subtotal",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_cart_item_thumbnail",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_cart_item_visible",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_cart_loaded_from_session",
+            "file": "includes/modules/bundle-sells/includes/class-wc-pb-bs-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_cart_shipping_packages",
+            "file": "includes/class-wc-pb-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2,
+            "priority": "5"
+        },
+        {
+            "name": "woocommerce_checkout_cart_item_visible",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_checkout_item_subtotal",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_component_order_item_meta_description",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_composite_container_cart_item_data_value",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_composite_wishlist_item_contents",
+            "file": "includes/compatibility/modules/class-wc-pb-wl-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_composited_cart_item_quantity_html",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_composited_order_item_quantity_html",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "11"
+        },
+        {
+            "name": "woocommerce_composited_package_item",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_composites_compatibility_modules",
+            "file": "includes/compatibility/class-wc-pb-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_coupon_is_valid_for_product",
+            "file": "includes/class-wc-pb-coupon.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_csv_product_import_mapping_default_columns",
+            "file": "includes/admin/import/class-wc-pb-product-import.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_csv_product_import_mapping_options",
+            "file": "includes/admin/import/class-wc-pb-product-import.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_data_stores",
+            "file": "includes/admin/analytics/class-wc-pb-admin-analytics.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_data_stores",
+            "file": "includes/data/class-wc-pb-data.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_debug_tools",
+            "file": "includes/admin/analytics/class-wc-pb-admin-analytics-sync.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_defer_transactional_emails",
+            "file": "includes/class-wc-pb-stock-notifications.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_get_cart_item_from_session",
+            "file": "includes/class-wc-pb-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_get_cart_item_from_session",
+            "file": "includes/class-wc-pb-order-again.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "-100"
+        },
+        {
+            "name": "woocommerce_get_cart_url",
+            "file": "tests/_support/docker/mu-plugins/pb-acceptance-test-helper.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_get_children",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_get_composited_product_price",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_get_item_count",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_get_item_data",
+            "file": "includes/modules/bundle-sells/includes/class-wc-pb-bs-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_get_item_data",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_get_item_data",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_get_price_html",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_get_product_from_item",
+            "file": "includes/compatibility/modules/class-wc-pb-shipwire-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_get_variation_prices_hash",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_hidden_order_itemmeta",
+            "file": "includes/class-wc-pb-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_is_subscription",
+            "file": "includes/class-wc-pb-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "WC core action.",
+                "long_description": "@see WC_Cart::restore_cart_item",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "6.12.0"
+                    },
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$bundled_item_cart_key"
+                    },
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "\\WC_Cart"
+                        ],
+                        "variable": "$cart"
+                    }
+                ],
+                "long_description_html": "<p>@see WC_Cart::restore_cart_item</p>"
+            },
+            "args": 3,
+            "priority": "100"
+        },
+        {
+            "name": "woocommerce_json_search_found_products",
+            "file": "includes/admin/class-wc-pb-admin-ajax.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_json_search_found_products",
+            "file": "includes/modules/bundle-sells/includes/admin/class-wc-pb-bs-admin.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_loop_add_to_cart_link",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_mini_cart_item_class",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "'woocommerce_bundled_items_grid_columns' filter.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "5.8.0"
+                    },
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "int"
+                        ],
+                        "variable": "$count"
+                    },
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "\\WC_Product_Bundle"
+                        ],
+                        "variable": "$bundle"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_again_cart_item_data",
+            "file": "includes/class-wc-pb-order-again.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_formatted_line_subtotal",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_get_items",
+            "file": "includes/compatibility/modules/class-wc-pb-pip-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_get_items",
+            "file": "includes/compatibility/modules/class-wc-pb-wc-services-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_get_items",
+            "file": "includes/compatibility/modules/class-wc-pb-shipwire-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_get_items",
+            "file": "includes/compatibility/modules/class-wc-pb-shipstation-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_item_class",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_item_class",
+            "file": "tests/_support/docker/mu-plugins/pb-acceptance-test-helper.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "15"
+        },
+        {
+            "name": "woocommerce_order_item_is_child_of_composite",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_item_name",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "9"
+        },
+        {
+            "name": "woocommerce_order_item_name",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_item_needs_processing",
+            "file": "includes/class-wc-pb-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_item_product",
+            "file": "includes/compatibility/modules/class-wc-pb-pip-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_item_product",
+            "file": "includes/compatibility/modules/class-wc-pb-shipstation-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_item_product",
+            "file": "includes/api/class-wc-pb-rest-api.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_item_product",
+            "file": "includes/compatibility/modules/class-wc-pb-wc-services-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_item_product",
+            "file": "includes/class-wc-pb-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "Allows you to construct a dynamic SKU for the product bundle depending on its contents.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "5.8.0"
+                    },
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$sku"
+                    },
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "\\WC_Product_Bundle"
+                        ],
+                        "variable": "$bundle"
+                    },
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "\\WC_Order_Item"
+                        ],
+                        "variable": "$item"
+                    },
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$assembled_items"
+                    },
+                    {
+                        "name": "param",
+                        "content": "",
+                        "types": [
+                            "\\WC_Order"
+                        ],
+                        "variable": "$order"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_item_visible",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_order_item_visible",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_parsed_rest_composite_order_item_configuration",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_pb_script_dependencies",
+            "file": "includes/compatibility/modules/class-wc-pb-addons-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_points_earned_for_cart_item",
+            "file": "includes/compatibility/modules/class-wc-pb-pnr-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_points_earned_for_order_item",
+            "file": "includes/compatibility/modules/class-wc-pb-pnr-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_post_class",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_posted_composite_configuration",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_addons_adjust_price",
+            "file": "includes/compatibility/modules/class-wc-pb-addons-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "15"
+        },
+        {
+            "name": "woocommerce_product_addons_option_price_raw",
+            "file": "includes/compatibility/modules/class-wc-pb-addons-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_product_addons_price_raw",
+            "file": "includes/compatibility/modules/class-wc-pb-addons-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_product_bundle_field_prefix",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_export_column_names",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_product_export_product_column_wc_pb_add_to_cart_form_location",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_export_product_column_wc_pb_aggregate_weight",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_export_product_column_wc_pb_bundle_sells",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_export_product_column_wc_pb_bundle_sells_discount",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_export_product_column_wc_pb_bundle_sells_title",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_export_product_column_wc_pb_bundled_items",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_export_product_column_wc_pb_editable_in_cart",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_export_product_column_wc_pb_group_mode",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_export_product_column_wc_pb_layout",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_export_product_column_wc_pb_max_bundle_size",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_export_product_column_wc_pb_min_bundle_size",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_export_product_column_wc_pb_sold_individually_context",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_export_product_column_wc_pb_virtual_bundle",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_export_product_default_columns",
+            "file": "includes/admin/export/class-wc-pb-product-export.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_product_get_price",
+            "file": "includes/compatibility/modules/class-wc-pb-pnr-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "9999"
+        },
+        {
+            "name": "woocommerce_product_get_price",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "98"
+        },
+        {
+            "name": "woocommerce_product_get_price",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "15"
+        },
+        {
+            "name": "woocommerce_product_get_regular_price",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "98"
+        },
+        {
+            "name": "woocommerce_product_get_regular_price",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "15"
+        },
+        {
+            "name": "woocommerce_product_get_sale_price",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "98"
+        },
+        {
+            "name": "woocommerce_product_get_sale_price",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "15"
+        },
+        {
+            "name": "woocommerce_product_get_stock_quantity",
+            "file": "includes/class-wc-pb-stock-notifications.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_get_stock_quantity",
+            "file": "includes/class-wc-product-bundle.php",
+            "type": "filter",
+            "doc": {
+                "description": "WC core filter.",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2,
+            "priority": "1000"
+        },
+        {
+            "name": "woocommerce_product_import_pre_insert_product_object",
+            "file": "includes/admin/import/class-wc-pb-product-import.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_importer_formatting_callbacks",
+            "file": "includes/admin/import/class-wc-pb-product-import.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_importer_parsed_data",
+            "file": "includes/admin/import/class-wc-pb-product-import.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_importer_parsed_data",
+            "file": "includes/admin/import/class-wc-pb-product-import.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_product_importer_pre_expand_data",
+            "file": "tests/_support/docker/mu-plugins/provision.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_product_is_on_sale",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "99"
+        },
+        {
+            "name": "woocommerce_product_variation_get_price",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "15"
+        },
+        {
+            "name": "woocommerce_product_variation_get_price",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "98"
+        },
+        {
+            "name": "woocommerce_product_variation_get_regular_price",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "15"
+        },
+        {
+            "name": "woocommerce_product_variation_get_regular_price",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "98"
+        },
+        {
+            "name": "woocommerce_product_variation_get_sale_price",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "15"
+        },
+        {
+            "name": "woocommerce_product_variation_get_sale_price",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "98"
+        },
+        {
+            "name": "woocommerce_quantity_input_args",
+            "file": "includes/compatibility/modules/class-wc-pb-min-max-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "11"
+        },
+        {
+            "name": "woocommerce_quantity_input_args",
+            "file": "includes/compatibility/modules/class-wc-pb-min-max-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "0"
+        },
+        {
+            "name": "woocommerce_rebuild_posted_composite_form_data",
+            "file": "includes/compatibility/modules/class-wc-pb-cp-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_rest_pre_insert_shop_order",
+            "file": "includes/api/class-wc-pb-rest-api.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_rest_pre_insert_shop_order_object",
+            "file": "includes/api/class-wc-pb-rest-api.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_rest_pre_insert_shop_subscription",
+            "file": "includes/api/class-wc-pb-rest-api.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_rest_prepare_product_object",
+            "file": "includes/api/class-wc-pb-rest-api.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_rest_prepare_shop_order",
+            "file": "includes/api/class-wc-pb-rest-api.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_rest_prepare_shop_order_object",
+            "file": "includes/api/class-wc-pb-rest-api.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_rest_prepare_shop_subscription",
+            "file": "includes/api/class-wc-pb-rest-api.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_rest_shop_order_schema",
+            "file": "includes/api/class-wc-pb-rest-api.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_rest_shop_subscription_schema",
+            "file": "includes/api/class-wc-pb-rest-api.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_show_variation_price",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_states",
+            "file": "tests/_support/docker/mu-plugins/pb-acceptance-test-helper.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_structured_data_product_offer",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_synced_bundle_stock_quantity",
+            "file": "includes/modules/min-max-items/includes/class-wc-pb-mmi-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_synced_bundled_items_stock_status",
+            "file": "includes/modules/min-max-items/includes/class-wc-pb-mmi-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_template_overrides_scan_paths",
+            "file": "includes/admin/class-wc-pb-admin.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "woocommerce_tracker_data",
+            "file": "includes/class-wc-pb-tracker.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_update_cart_validation",
+            "file": "includes/class-wc-pb-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_variable_price_html",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_variation_prices",
+            "file": "includes/class-wc-pb-product-prices.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "15"
+        },
+        {
+            "name": "woocommerce_widget_cart_item_quantity",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_widget_cart_item_visible",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_widget_cart_item_visible",
+            "file": "includes/class-wc-pb-display.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "woocommerce_wishlist_list_item_price",
+            "file": "includes/compatibility/modules/class-wc-pb-wl-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wp_import_post_meta",
+            "file": "includes/compatibility/modules/class-wc-pb-wp-ie-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "wxr_export_skip_postmeta",
+            "file": "includes/compatibility/modules/class-wc-pb-wp-ie-compatibility.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3,
+            "priority": "10"
+        },
+        {
+            "name": "{$this->identifier}_time_exceeded",
+            "file": "includes/class-wc-pb-db-sync-task-runner.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        },
+        {
+            "name": "{$this->identifier}_time_exceeded",
+            "file": "includes/class-wc-pb-background-updater.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1,
+            "priority": 10
+        }
+    ]
+}

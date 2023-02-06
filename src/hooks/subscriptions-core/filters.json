@@ -1,0 +1,2591 @@
+{
+    "$schema": "https://raw.githubusercontent.com/wp-hooks/generator/0.9.0/schema.json",
+    "hooks": [
+        {
+            "name": "__experimental_woocommerce_blocks_payment_gateway_features_list",
+            "file": "includes/gateways/paypal/includes/class-wcs-paypal-supports.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "bulk_actions-edit-product",
+            "file": "includes/class-wc-subscriptions-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "cron_schedules",
+            "file": "includes/class-wcs-cached-data-manager.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "manage_edit-shop_order_columns",
+            "file": "includes/class-wc-subscriptions-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "post_row_actions",
+            "file": "includes/class-wc-subscriptions-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "pre_update_option",
+            "file": "includes/class-wcs-permalink-manager.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "query_vars",
+            "file": "includes/class-wcs-query.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "redirect_canonical",
+            "file": "includes/class-wcs-query.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "request",
+            "file": "includes/class-wc-subscriptions-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "site_url",
+            "file": "tests/unit/test-wcs-functions.php",
+            "type": "filter",
+            "doc": {
+                "description": "Test the offset arg.",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "the_content",
+            "file": "includes/class-wc-subscriptions-change-payment-gateway.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "the_title",
+            "file": "includes/class-wc-subscriptions-change-payment-gateway.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "the_title",
+            "file": "includes/class-wcs-query.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "user_has_cap",
+            "file": "includes/class-wc-subscriptions-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "user_has_cap",
+            "file": "includes/wcs-user-functions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "user_register",
+            "file": "includes/data-stores/class-wcs-customer-store-cached-cpt.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wc_get_template",
+            "file": "includes/class-wcs-template-loader.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wc_shipping_local_pickup_plus_chosen_shipping_methods",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wc_subscriptions_paypal_standard_suspension_note",
+            "file": "includes/gateways/paypal/includes/class-wcs-paypal-standard-switcher.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wc_subscriptions_renewal_order_data",
+            "file": "includes/data-stores/class-wcs-related-order-store-cached-cpt.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wcs_cart_totals_order_total_html",
+            "file": "includes/wcs-cart-functions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wcs_created_subscription",
+            "file": "includes/data-stores/class-wcs-related-order-store-cached-cpt.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "wcs_customer_store_class",
+            "file": "tests/unit/abstracts/test-abstract-wcs-customer-store.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wcs_customer_store_class",
+            "file": "tests/unit/abstracts/test-abstract-wcs-customer-store.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wcs_gateway_change_payment_button_text",
+            "file": "includes/gateways/paypal/includes/class-wcs-paypal-standard-change-payment-method.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wcs_gateway_status_payment_changed",
+            "file": "includes/gateways/paypal/includes/class-wcs-paypal-status-manager.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wcs_max_log_size",
+            "file": "tests/unit/test-wcs-functions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wcs_new_order_items",
+            "file": "includes/class-wc-subscriptions-renewal-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wcs_recurring_cart_end_date",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wcs_recurring_cart_start_date",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wcs_related_order_store_class",
+            "file": "tests/unit/abstracts/test-abstract-wcs-related-order-store.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wcs_related_order_store_class",
+            "file": "tests/unit/abstracts/test-abstract-wcs-related-order-store.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wcs_renewal_order_created",
+            "file": "includes/class-wc-subscriptions-renewal-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wcs_resubscribe_order_created",
+            "file": "includes/gateways/paypal/class-wcs-paypal.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wcs_subscription_data_store_props_to_ignore",
+            "file": "includes/data-stores/class-wcs-related-order-store-cached-cpt.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wcs_subscription_ended_statuses",
+            "file": "tests/unit/test-class-wc-subscriptions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wcs_subscription_meta",
+            "file": "tests/unit/test-class-wc-subscriptions-data-copier.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wcs_subscription_meta_query",
+            "file": "tests/unit/test-class-wc-subscriptions-data-copier.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wcs_subscription_statuses",
+            "file": "tests/unit/test-wcs-functions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wcs_view_subscription_actions",
+            "file": "includes/class-wc-subscriptions-addresses.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wcs_view_subscription_actions",
+            "file": "includes/class-wc-subscriptions-change-payment-gateway.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "widget_title",
+            "file": "includes/gateways/class-wc-subscriptions-core-payment-gateways.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "widget_title",
+            "file": "includes/gateways/class-wc-subscriptions-core-payment-gateways.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_account_menu_item_classes",
+            "file": "includes/class-wcs-query.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_account_menu_items",
+            "file": "includes/class-wcs-query.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_account_settings",
+            "file": "includes/class-wcs-query.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_add_to_cart_fragments",
+            "file": "includes/class-wc-subscriptions-cart-validator.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_add_to_cart_fragments",
+            "file": "includes/class-wc-subscriptions-cart-validator.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_add_to_cart_handler",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_add_to_cart_redirect",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_add_to_cart_validation",
+            "file": "includes/class-wc-subscriptions-cart-validator.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_add_to_cart_validation",
+            "file": "includes/class-wc-subscriptions-cart-validator.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_add_to_cart_validation",
+            "file": "includes/class-wc-subscriptions-cart-validator.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "woocommerce_add_to_cart_validation",
+            "file": "includes/wcs-cart-functions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_address_to_edit",
+            "file": "includes/class-wc-subscriptions-addresses.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "woocommerce_available_payment_gateways",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_available_payment_gateways",
+            "file": "includes/class-wc-subscriptions-change-payment-gateway.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_available_payment_gateways",
+            "file": "includes/gateways/class-wc-subscriptions-core-payment-gateways.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_available_payment_gateways",
+            "file": "includes/gateways/paypal/includes/class-wcs-paypal-standard-switcher.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_available_payment_gateways",
+            "file": "includes/gateways/paypal/class-wcs-paypal.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_available_variation",
+            "file": "includes/class-wc-subscriptions-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_calculated_total",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_can_subscription_be_updated_to_new-payment-method",
+            "file": "includes/class-wc-subscriptions-change-payment-gateway.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_loaded_from_session",
+            "file": "includes/class-wc-subscriptions-cart-validator.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "woocommerce_cart_needs_payment",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_needs_payment",
+            "file": "includes/gateways/paypal/includes/class-wcs-paypal-standard-switcher.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_needs_shipping",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_needs_shipping_address",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_product_price",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_product_subtotal",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_product_subtotal",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_redirect_after_error",
+            "file": "includes/class-wc-subscriptions-cart-validator.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_shipping_packages",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_totals_coupon_html",
+            "file": "includes/class-wc-subscriptions-coupon.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_totals_coupon_label",
+            "file": "includes/class-wc-subscriptions-coupon.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_coupon_discount_types",
+            "file": "includes/class-wc-subscriptions-coupon.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_coupon_discount_types",
+            "file": "includes/class-wc-subscriptions-coupon.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_coupon_error",
+            "file": "includes/class-wc-subscriptions-coupon.php",
+            "type": "filter",
+            "doc": {
+                "description": "See WC Core fixed_cart coupons - we need to divide the discount between rows based on their price in proportion to the subtotal.",
+                "long_description": "This is so rows with different tax rates get a fair discount, and so rows with no price (free) don't get discounted.\n BUT... we also need the subtotal to exclude non renewal products, so user the renewal subtotal",
+                "tags": [],
+                "long_description_html": "<p>This is so rows with different tax rates get a fair discount, and so rows with no price (free) don't get discounted.</p> <p>BUT... we also need the subtotal to exclude non renewal products, so user the renewal subtotal</p>"
+            },
+            "args": 2
+        },
+        {
+            "name": "woocommerce_coupon_get_apply_quantity",
+            "file": "includes/class-wc-subscriptions-coupon.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_coupon_get_discount_amount",
+            "file": "includes/class-wc-subscriptions-coupon.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_coupon_is_valid",
+            "file": "includes/class-wc-subscriptions-coupon.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_coupon_is_valid_for_product",
+            "file": "includes/class-wc-subscriptions-coupon.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_customer_get_shipping_country",
+            "file": "tests/unit/helpers/class-wc-helper-shipping.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_customer_get_shipping_postcode",
+            "file": "tests/unit/helpers/class-wc-helper-shipping.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_customer_get_shipping_state",
+            "file": "tests/unit/helpers/class-wc-helper-shipping.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_data_stores",
+            "file": "includes/class-wcs-custom-order-item-manager.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_debug_tools",
+            "file": "includes/abstracts/abstract-wcs-debug-tool.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_email_from_address",
+            "file": "tests/unit/helpers/class-wcs-email-listener.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_endpoint_subscriptions_title",
+            "file": "includes/class-wcs-query.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_endpoint_view-subscription_title",
+            "file": "includes/class-wcs-query.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_enqueue_styles",
+            "file": "includes/class-wc-subscriptions-frontend-scripts.php",
+            "type": "filter",
+            "doc": {
+                "description": "Enqueues WC Subscriptions frontend scripts.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "WooCommerce Subscriptions"
+                    },
+                    {
+                        "name": "since",
+                        "content": "1.0.0",
+                        "description": "- Migrated from WooCommerce Subscriptions v3.1.3"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_exporter_product_types",
+            "file": "includes/admin/class-wcs-admin-product-import-export-manager.php",
+            "type": "filter",
+            "doc": {
+                "description": "WooCommerce Subscriptions Admin Product Exporter",
+                "long_description": "A class to assist in filtering the WooCommerce core product csv importer/exporter.",
+                "tags": [
+                    {
+                        "name": "category",
+                        "content": "Admin"
+                    },
+                    {
+                        "name": "package",
+                        "content": "WooCommerce Subscriptions/Admin"
+                    },
+                    {
+                        "name": "version",
+                        "content": "1.0.0",
+                        "description": "- Migrated from WooCommerce Subscriptions v3.0.13"
+                    }
+                ],
+                "long_description_html": "<p>A class to assist in filtering the WooCommerce core product csv importer/exporter.</p>"
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_get_breadcrumb",
+            "file": "includes/class-wc-subscriptions-addresses.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_get_breadcrumb",
+            "file": "includes/class-wc-subscriptions-change-payment-gateway.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_get_endpoint_url",
+            "file": "includes/class-wcs-query.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_get_endpoint_url",
+            "file": "includes/class-wcs-query.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_get_endpoint_url",
+            "file": "includes/class-wcs-query.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_get_item_data",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_get_item_downloads",
+            "file": "includes/class-wcs-download-handler.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_get_order_item_classname",
+            "file": "includes/class-wcs-custom-order-item-manager.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_get_query_vars",
+            "file": "includes/class-wcs-query.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_get_return_url",
+            "file": "includes/class-wc-subscriptions-change-payment-gateway.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "woocommerce_get_settings_advanced",
+            "file": "includes/class-wcs-query.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_get_shop_coupon_data",
+            "file": "includes/class-wc-subscriptions-coupon.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filters whether the coupon should be allowed to be removed.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "Whether to bypass removing the coupon.",
+                        "types": [
+                            "bool"
+                        ],
+                        "variable": "$bypass_removal"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The coupon object.",
+                        "types": [
+                            "\\WC_Coupon"
+                        ],
+                        "variable": "$coupon"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The coupon's discount_type property.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$coupon_type"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The current calculation type.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$calculation_type"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "woocommerce_gform_base_price",
+            "file": "includes/class-wc-subscriptions-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_gform_total_price",
+            "file": "includes/class-wc-subscriptions-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_gform_variation_total_price",
+            "file": "includes/class-wc-subscriptions-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_grouped_price_html",
+            "file": "includes/class-wc-subscriptions-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_hidden_order_itemmeta",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_hidden_order_itemmeta",
+            "file": "includes/class-wc-subscriptions-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_local_pickup_methods",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_mail_callback_params",
+            "file": "tests/unit/helpers/class-wcs-email-listener.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_my_account_my_orders_actions",
+            "file": "includes/class-wc-subscriptions-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_new_subscription_data",
+            "file": "tests/unit/data-stores/test-class-wcs-customer-store-cpt.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_no_available_payment_methods_message",
+            "file": "includes/gateways/class-wc-subscriptions-core-payment-gateways.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_order_actions",
+            "file": "includes/admin/class-wcs-admin-meta-boxes.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_order_amount_total",
+            "file": "includes/class-wc-subscriptions-change-payment-gateway.php",
+            "type": "filter",
+            "doc": {
+                "description": "If there's no change payment request and the cart contains a failed renewal order, check if the subscription is manual.",
+                "long_description": "We update failing, non-manual subscriptions in @see WC_Subscriptions_Change_Payment_Gateway::change_failing_payment_method() so we don't need to apply our available payment gateways filter if the subscription is manual.",
+                "tags": [],
+                "long_description_html": "<p>We update failing, non-manual subscriptions in @see WC_Subscriptions_Change_Payment_Gateway::change_failing_payment_method() so we don't need to apply our available payment gateways filter if the subscription is manual.</p>"
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_order_amount_total",
+            "file": "includes/gateways/paypal/includes/class-wcs-paypal-standard-request.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_order_data_store_cpt_get_orders_query",
+            "file": "includes/class-wc-subscriptions-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_order_data_store_cpt_get_orders_query",
+            "file": "includes/class-wc-subscriptions-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_order_is_download_permitted",
+            "file": "includes/class-wc-subscriptions-email.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_order_is_paid",
+            "file": "includes/class-wc-subscriptions-email.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_order_item_get_subtotal",
+            "file": "tests/unit/test-wcs-deprecated-functions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_order_item_meta_end",
+            "file": "templates/emails/plain/admin-new-switch-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "hooked",
+                        "content": "WC_Subscriptions_Email::order_details() Shows the order details table."
+                    },
+                    {
+                        "name": "since",
+                        "content": "1.0.0",
+                        "description": "- Migrated from WooCommerce Subscriptions v2.1.0"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_order_item_quantity",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_order_needs_payment",
+            "file": "includes/gateways/paypal/class-wcs-paypal.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_order_needs_payment",
+            "file": "includes/class-wc-subscriptions-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_order_needs_shipping_address",
+            "file": "includes/class-wc-subscriptions-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_order_status_changed",
+            "file": "tests/unit/test-class-wc-subscriptions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_order_status_changed",
+            "file": "includes/class-wc-subscription.php",
+            "type": "filter",
+            "doc": {
+                "description": "Previously the @see WC_Subscription::get_completed_payment_count() function would filter the completed renewal and parent order count as a combined total.",
+                "long_description": "To remain backwards compatible, we need to apply that filter but only if we're getting the parent and renewal order completed count.",
+                "tags": [],
+                "long_description_html": "<p>To remain backwards compatible, we need to apply that filter but only if we're getting the parent and renewal order completed count.</p>"
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_order_type_to_group",
+            "file": "includes/class-wcs-custom-order-item-manager.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_package_rates",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_payment_complete_order_status",
+            "file": "tests/unit/test-class-wc-subscriptions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_payment_complete_order_status",
+            "file": "includes/class-wc-subscriptions-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_payment_complete_order_status",
+            "file": "includes/class-wc-subscriptions-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_payment_gateway_supports",
+            "file": "includes/gateways/paypal/includes/class-wcs-paypal-supports.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_payment_gateways_renewal_support_status_html",
+            "file": "includes/gateways/class-wc-subscriptions-core-payment-gateways.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_payment_methods_list_item",
+            "file": "includes/class-wcs-my-account-payment-methods.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_payment_successful_result",
+            "file": "includes/gateways/paypal/includes/class-wcs-paypal-standard-switcher.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_paypal_args",
+            "file": "includes/gateways/paypal/class-wcs-paypal.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_prevent_adjust_line_item_product_stock",
+            "file": "includes/admin/class-wcs-admin-meta-boxes.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_product_backorders_allowed",
+            "file": "includes/class-wcs-renewal-cart-stock-manager.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_product_class",
+            "file": "includes/class-wc-subscriptions-product.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_product_class",
+            "file": "includes/legacy/class-wcs-product-legacy.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_product_coupon_types",
+            "file": "includes/class-wc-subscriptions-coupon.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_product_export_product_query_args",
+            "file": "includes/admin/class-wcs-admin-product-import-export-manager.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_product_get_price",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_product_import_process_item_data",
+            "file": "includes/admin/class-wcs-admin-product-import-export-manager.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_product_is_in_stock",
+            "file": "includes/class-wcs-renewal-cart-stock-manager.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_product_variation_get_price",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_register_post_type_subscription",
+            "file": "includes/class-wcs-staging.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_resend_order_emails_available",
+            "file": "includes/admin/class-wcs-admin-meta-boxes.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_resend_order_emails_available",
+            "file": "includes/class-wc-subscriptions-email.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "woocommerce_shipping_chosen_method",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_shipping_free_shipping_is_available",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_shipping_free_shipping_is_available",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_shipping_free_shipping_is_available",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_shipping_free_shipping_is_available",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_shipping_package_name",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_shop_manager_editable_roles",
+            "file": "includes/wcs-user-functions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_subscription_date_meta_key_prefix",
+            "file": "tests/unit/test-wcs-functions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscription_dates",
+            "file": "tests/unit/test-wcs-functions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_subscription_get_total",
+            "file": "includes/class-wc-subscriptions-change-payment-gateway.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscription_get_total",
+            "file": "includes/class-wc-subscriptions-change-payment-gateway.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscription_get_total",
+            "file": "includes/gateways/paypal/includes/class-wcs-paypal-standard-request.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscription_is_purchasable",
+            "file": "tests/unit/test-wcs-cart-user-registration.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_subscription_is_purchasable",
+            "file": "includes/class-wcs-limiter.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscription_is_purchasable",
+            "file": "includes/class-wcs-limiter.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscription_needs_payment",
+            "file": "includes/class-wc-subscriptions-change-payment-gateway.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscription_payment_gateway_supports",
+            "file": "tests/unit/test-class-wc-subscriptions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_subscription_payment_gateway_supports",
+            "file": "tests/unit/test-class-wc-subscriptions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_subscription_payment_gateway_supports",
+            "file": "tests/unit/test-class-wc-subscriptions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_subscription_payment_gateway_supports",
+            "file": "tests/unit/test-class-wc-subscriptions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_subscription_payment_gateway_supports",
+            "file": "tests/unit/test-class-wc-subscriptions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_subscription_payment_gateway_supports",
+            "file": "tests/unit/test-class-wc-subscriptions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_subscription_payment_gateway_supports",
+            "file": "tests/unit/test-class-wc-subscriptions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_subscription_payment_gateway_supports",
+            "file": "includes/gateways/paypal/includes/class-wcs-paypal-supports.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscription_payment_meta",
+            "file": "includes/gateways/paypal/includes/admin/class-wcs-paypal-change-payment-method-admin.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscription_renewal_payment_completed_count",
+            "file": "tests/unit/test-class-wc-subscriptions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_subscription_renewal_payment_completed_count",
+            "file": "tests/unit/test-class-wc-subscriptions.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_subscription_settings",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_subscription_settings",
+            "file": "includes/class-wcs-my-account-auto-renew-toggle.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "woocommerce_subscription_validate_payment_meta_paypal",
+            "file": "includes/gateways/paypal/includes/admin/class-wcs-paypal-change-payment-method-admin.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscription_variation_is_purchasable",
+            "file": "includes/class-wcs-limiter.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscription_variation_is_purchasable",
+            "file": "includes/class-wcs-limiter.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscriptions_admin_meta_boxes_script_parameters",
+            "file": "includes/gateways/paypal/class-wcs-paypal.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_subscriptions_admin_script_parameters",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "woocommerce_subscriptions_calculated_total",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscriptions_can_item_be_switched",
+            "file": "includes/gateways/paypal/includes/class-wcs-paypal-standard-switcher.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscriptions_cart_get_price",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscriptions_payment_gateway_features_list",
+            "file": "includes/gateways/paypal/includes/class-wcs-paypal-supports.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscriptions_product_expiration_date",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscriptions_product_trial_expiration_date",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscriptions_product_trial_expiration_date",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter whether payment is upfront for a given product.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "Whether the product needs to be paid upfront.",
+                        "types": [
+                            "bool"
+                        ],
+                        "variable": "$is_upfront"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The current product.",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscriptions_recurring_cart_key",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscriptions_sign_up_fee",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscriptions_sign_up_fee",
+            "file": "includes/class-wc-subscriptions-change-payment-gateway.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscriptions_total_initial_payment",
+            "file": "includes/class-wc-subscriptions-change-payment-gateway.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_subscriptions_update_payment_via_pay_shortcode",
+            "file": "includes/gateways/paypal/includes/class-wcs-paypal-standard-change-payment-method.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_tracker_data",
+            "file": "includes/class-wc-subscriptions-tracker.php",
+            "type": "filter",
+            "doc": {
+                "description": "Tracker for Subscriptions usage.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "class",
+                        "content": "WC_Subscriptions_Tracker"
+                    },
+                    {
+                        "name": "version",
+                        "content": "1.0.0",
+                        "description": "- Migrated from WooCommerce Subscriptions v2.6.4"
+                    },
+                    {
+                        "name": "package",
+                        "content": "WooCommerce Subscriptions/Classes"
+                    },
+                    {
+                        "name": "category",
+                        "content": "Class"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_update_350_order_customer_id_post_types",
+            "file": "includes/upgrades/class-wcs-upgrade-subscription-post-author.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_valid_order_statuses_for_order_again",
+            "file": "includes/class-wcs-limiter.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "{$deprecated_hook}",
+            "file": "tests/unit/test-class-wc-subscriptions-payment-count.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "{$product_price_filter}",
+            "file": "includes/class-wc-subscriptions-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "Since the COD gateway supports shipping method restrictions we run into problems with free trials.",
+                "long_description": "We don't make packages for free trial subscriptions and thus they have no assigned shipping method to match against the payment gateway. We can get around this limitation by abusing the fact that the user has to select a shipping method for the recurring cart.",
+                "tags": [],
+                "long_description_html": "<p>We don't make packages for free trial subscriptions and thus they have no assigned shipping method to match against the payment gateway. We can get around this limitation by abusing the fact that the user has to select a shipping method for the recurring cart.</p>"
+            },
+            "args": 3
+        },
+        {
+            "name": "{$setting_id_days_no_fee}",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "{$setting_id_days_no_fee}",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "{$setting_id_days_no_fee}",
+            "file": "includes/class-wc-subscriptions-synchroniser.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        }
+    ]
+}

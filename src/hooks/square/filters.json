@@ -1,0 +1,143 @@
+{
+    "$schema": "https://raw.githubusercontent.com/wp-hooks/generator/0.9.0/schema.json",
+    "hooks": [
+        {
+            "name": "action_scheduler_migration_dependencies_met",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "comments_clauses",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "cron_schedules",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "pre_wp_unique_post_slug",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "pre_wp_unique_post_slug",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php",
+            "type": "filter",
+            "doc": {
+                "description": "Global $wpdb object.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "var",
+                        "content": "",
+                        "types": [
+                            "\\wpdb"
+                        ],
+                        "variable": "$wpdb"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "pre_wp_unique_post_slug",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "set_screen_option_{$this->get_per_page_option_name()}",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_admin_status_tabs",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wp_insert_post_data",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wp_insert_post_data",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php",
+            "type": "filter",
+            "doc": {
+                "description": "Global wpdb object.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "var",
+                        "content": "",
+                        "types": [
+                            "\\wpdb"
+                        ],
+                        "variable": "$wpdb"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        }
+    ]
+}

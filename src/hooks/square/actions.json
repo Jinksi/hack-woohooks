@@ -1,0 +1,557 @@
+{
+    "$schema": "https://raw.githubusercontent.com/wp-hooks/generator/0.9.0/schema.json",
+    "hooks": [
+        {
+            "name": "action_scheduler/created_table",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_after_execute",
+            "file": "vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_after_execute",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_FatalErrorMonitor.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_after_process_queue",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_before_execute",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_FatalErrorMonitor.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_before_process_queue",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_before_schema_update",
+            "file": "vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_before_schema_update",
+            "file": "vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_begin_execute",
+            "file": "vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_bulk_cancel_actions",
+            "file": "vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_canceled_action",
+            "file": "vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_deleted_action",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_execution_ignored",
+            "file": "vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_execution_ignored",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_FatalErrorMonitor.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_failed_action",
+            "file": "vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_failed_execution",
+            "file": "vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_failed_execution",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_FatalErrorMonitor.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_failed_fetch_action",
+            "file": "vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_failed_to_schedule_next_instance",
+            "file": "vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_reset_action",
+            "file": "vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "action_scheduler_stored_action",
+            "file": "vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "action_scheduler_unexpected_shutdown",
+            "file": "vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "admin_menu",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "admin_notices",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "comment_feed_where",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "comment_feed_where",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "current_screen",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "load-tools_page_action-scheduler",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "load-woocommerce_page_wc-status",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "load-{$hook_suffix}",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "plugins_loaded",
+            "file": "vendor/woocommerce/action-scheduler/action-scheduler.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "plugins_loaded",
+            "file": "vendor/woocommerce/action-scheduler/action-scheduler.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "pre_get_comments",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "pre_get_comments",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "self::WP_CRON_HOOK",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "shutdown",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "shutdown",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_FatalErrorMonitor.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_admin_status_content_action-scheduler",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_system_status_report",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wp_ajax_nopriv_{$this->identifier}",
+            "file": "vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wp_ajax_{$this->identifier}",
+            "file": "vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wp_count_comments",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wp_count_comments",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "wp_insert_comment",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "wp_set_comment_status",
+            "file": "vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "{$cleanup_hook}",
+            "file": "vendor/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        }
+    ]
+}
